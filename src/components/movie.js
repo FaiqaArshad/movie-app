@@ -58,7 +58,6 @@ const MovieComponent = (props) => {
             width: 600,
             marginTop: "20px",
           }}
-         
           onSelect={searchCategory}
           // mode="multiple"
         >
@@ -71,7 +70,6 @@ const MovieComponent = (props) => {
           })}
         </Select>
 
-    
         <div
           style={{
             display: "flex",
@@ -83,7 +81,6 @@ const MovieComponent = (props) => {
         >
           <Row
             style={{
-          
               display: "flex",
               justifyContent: "center",
               alignContent: "center",
@@ -106,6 +103,7 @@ const MovieComponent = (props) => {
             color: "primary",
           }}
           pageSizeOptions={[4, 8, 12]}
+          current={currentPage}
         />
       </Space>
     </div>
