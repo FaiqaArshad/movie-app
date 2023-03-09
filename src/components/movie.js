@@ -64,9 +64,9 @@ const MovieComponent = (props) => {
         >
           {category?.map((e, key) => {
             return (
-              <option key={key} value={e} defaultValue="">
+              <Select.Option key={key} value={e} defaultValue="">
                 {e}
-              </option>
+              </Select.Option>
             );
           })}
         </Select>
@@ -105,7 +105,6 @@ const MovieComponent = (props) => {
             display: "flex",
             color: "primary",
           }}
-          //   onShowSizeChange
           pageSizeOptions={[4, 8, 12]}
         />
       </Space>

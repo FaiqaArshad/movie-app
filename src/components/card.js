@@ -44,7 +44,7 @@ const Cardcomponent = ({ data }) => {
     <>
       {data?.map((data) => {
         return (
-          <Col key={data.key} style={{ margin: "25px",  }}>
+          <Col key={data.id} style={{ margin: "25px",  }}>
                     <Card style={{width:"100%"}}>
               <Card.Body>
                 <Card.Title>
@@ -71,7 +71,7 @@ const Cardcomponent = ({ data }) => {
                   style={{ display: "flex", gap: "1rem", marginTop: "10px" }}
                 >
                   <Button>
-                    <i class="fa fa-thumbs-up" style={{ fontSize: "24px" }}></i>
+                    <i className="fa fa-thumbs-up" style={{ fontSize: "24px" }}></i>
                     <span style={{ marginLeft: "10px" }}>
                       {" "}
                       {data.likes}
@@ -79,7 +79,7 @@ const Cardcomponent = ({ data }) => {
                   </Button>
                   <Button>
                     <i
-                      class="fa fa-thumbs-down"
+                      className="fa fa-thumbs-down"
                       style={{ fontSize: "24px" }}
                     ></i>
 
