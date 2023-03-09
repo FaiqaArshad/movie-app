@@ -1,0 +1,5 @@
+export const REMOVE_MOVIE = 'REMOVE_MOVIE';
+export const RECIEVE_MOVIE = 'RECIEVE_MOVIE';
+export const LIKE_MOVIE = 'LIKE_MOVIE';
+export const DISLIKE_MOVIE = 'DISLIKE_MOVIE';
+export const MOVIE_BY_CATEGROY = 'MOVIE_BY_CATEGROY'
