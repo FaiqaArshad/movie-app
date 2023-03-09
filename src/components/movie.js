@@ -53,7 +53,7 @@ const MovieComponent = (props) => {
         }}
       >
         <Select
-          placeholder="search movie by Category"
+          placeholder="search movie by category"
           style={{
             width: 600,
             marginTop: "20px",
